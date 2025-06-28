@@ -1,0 +1,91 @@
+// {
+    
+  //   const url = 'https://movies-api14.p.rapidapi.com/shows';
+  //   const options = {
+  //     method: 'GET',
+  //     headers: {
+  //       'x-rapidapi-key': 'e7c5b13e50mshc0b97346c2d8ac9p11a74bjsnd09ee96bac59',
+  //       'x-rapidapi-host': 'movies-api14.p.rapidapi.com'
+  //     }
+  //   };
+  //   // let main = [];
+  //   try {
+  //   	const response = await fetch(url, options);
+  //   	const result = await response.json();
+  //     // main = result
+  //   	console.log(result);
+  //   } catch (error) {
+  //   	console.error(error);
+  //   }
+  //     }
+
+
+
+
+
+ ///////////////////// 2///////////////////
+ // <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", gap: "20px", padding: "20px" }}>
+    //   {main.map((movie, index) => (
+    //     <div key={index} style={{ border: "1px solid #ddd", borderRadius: "10px", padding: "15px", textAlign: "center", background: "#fff", boxShadow: "0 4px 8px rgba(0,0,0,0.1)" }}>
+    //       <img src={movie.image} alt={movie.title} style={{ width: "100%", height: "200px", objectFit: "cover", borderRadius: "10px" }} />
+    //       <h3 style={{ margin: "10px 0" }}>{movie.title}</h3>
+    //       <p><strong>Episodes:</strong> {movie.episodes}</p>
+    //       <p><strong>Ranking:</strong> {movie.hasRanking ? "Yes" : "No"}</p>
+    //     </div>
+    //   ))}
+    // </div>
+    /////////////3////////////////
+    
+// const Movie = async () => {
+  // const url = process.env.RAPID_KEY;
+  // const options = {
+  //   method: 'GET',
+  //   headers: {
+  //     'x-rapidapi-key': 'e7c5b13e50mshc0b97346c2d8ac9p11a74bjsnd09ee96bac59',
+  //     'x-rapidapi-host': 'anime-db.p.rapidapi.com'
+  //   }
+  // };
+
+  // let main = [];
+
+  // try {
+  //   const response = await fetch(url, options);
+  //   const result = await response.json();
+  //   main = result.data; // API response ka data
+  // } catch (error) {
+  //   console.error(error);
+  // }
+
+// //   {
+// //     const fetch = require('node-fetch');
+
+// // const url = 'https://movies-api14.p.rapidapi.com/shows';
+// // const options = {
+// //   method: 'GET',
+// //   headers: {
+// //     'x-rapidapi-key': 'e7c5b13e50mshc0b97346c2d8ac9p11a74bjsnd09ee96bac59',
+// //     'x-rapidapi-host': 'movies-api14.p.rapidapi.com'
+// //   }
+// // };
+
+// // try {
+// // 	const response = await fetch(url, options);
+// // 	const result = await response.text();
+// // 	console.log(result);
+// // } catch (error) {
+// // 	console.error(error);
+// // }
+// //   }
+
+//   return (
+   
+//     <section className={styles.movieSection}>
+//       <div className={styles.container}>
+//         <h1>Series & Movies</h1>
+//         {/* s */}
+//       </div>
+//     </section>
+//   );
+// };
+
+// export default Movie;
