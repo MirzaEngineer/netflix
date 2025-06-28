@@ -5,6 +5,7 @@ const Contact = () => {
   return (
     <>
     <h1>Local Side</h1>
+    <p>ME</p>
       <div className={styles.container}>
         <h1>Contact Us</h1>
 
