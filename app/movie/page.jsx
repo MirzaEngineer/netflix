@@ -50,7 +50,6 @@ const Movie = async () => {
           </div>
         </div>
       </section>
-      <h1>OK</h1>
 
 
     </>
