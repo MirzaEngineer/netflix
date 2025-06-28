@@ -5,6 +5,7 @@ const About = () => {
   return (
     <>
     <h1>Mirza Usama</h1>
+    <p>Hello sir are you intrested</p>
     <HeroSection title = "OUR STORY" imageUrl='/about1.svg' />      
     </>
   )
