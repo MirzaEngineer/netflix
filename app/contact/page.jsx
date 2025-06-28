@@ -4,6 +4,7 @@ import ContactForm from "../components/ContactForm"
 const Contact = () => {
   return (
     <>
+    <h1>Local Side</h1>
       <div className={styles.container}>
         <h1>Contact Us</h1>
 
